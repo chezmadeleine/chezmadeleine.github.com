@@ -1,0 +1,267 @@
+html{
+	font-family: 'Helvetica', 'Sans';
+	font-size: 12pt;
+	/*background: #F7F8E0;*/
+	background: #FFFFFF;
+}
+
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	font-size:100%;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	width: 800px;
+	margin: 0 auto;
+	background: #F0EABD;
+}
+
+/* Header styles */
+#header {
+	height: 270px;
+	background-image: url(../images/header.jpg);
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+
+#navbar{
+	position: relative;
+	top: 234px;	
+	height:36px;
+	width:800px;
+}
+
+#navbar ul{
+	list-style:none;
+	display:inline;
+}
+
+#navbar ul li {
+	display:inline;
+	list-style:none;
+	margin:0;
+}
+	
+#navbar ul li a {
+	color: #000000;
+	display:block;
+	float:left;
+	padding:12px 10px 9px 10px;
+	text-align:center;
+	text-decoration:none;
+	line-height:1.3em;
+}
+
+#navbar ul li a:hover {
+	text-decoration:underline;
+}
+
+#content{
+	min-height: 400px;
+}
+
+#content h3,#content h2, #content h1{
+	color: #000000;
+}
+
+#description{
+	float:left;
+	width:800px;
+}
+
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	overflow:hidden;
+}
+/* 2 Column (left menu) settings */
+.leftmenu {
+	background:#fff;		/* right column background colour */
+}
+.leftmenu .colleft {
+	right:80%;			/* right column width */
+	background-image: url(../images/333333.png);/* left column background colour */
+	background-repeat:repeat;
+}
+.leftmenu .col1 {
+	width:76%;			/* right column content width */
+	left:102%;			/* 100% plus left column left padding */
+}
+.leftmenu .col2 {
+	width:16%;			/* left column content width (column width minus left and right padding) */
+	left:6%;			/* (right column left and right padding) plus (left column left padding) */
+}
+
+#footer {
+background: #F0EABD;
+color:#000;
+clear:both;
+float:left;
+width:100%;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+}
+
+#footer p {
+	padding:10px;
+	margin:0;
+}
+
+#footer a,#footer a:visited {
+color:#000;
+text-decoration:none;
+}
+
+#footer a:hover {
+color:#000;
+text-decoration:underline;
+background:transparent;
+}
+
+#footer ul {
+	list-style:none;
+}
+
+#footer h1,h2,h3 {
+	color: #000;
+}
+
+img.email {
+	vertical-align: bottom;
+	display:inline;
+}
+
+#sidecontent{
+	margin-top: 20px;
+}
+
+#slides {
+	display: none
+}
+
+#slides .slidesjs-navigation {
+	margin-top:3px;
+}
+
+#slides .slidesjs-previous {
+	margin-right: 5px;
+	float: left;
+}
+
+#slides .slidesjs-next {
+	margin-right: 5px;
+	float: left;
+}
+
+.slidesjs-pagination {
+	margin: 6px 0 0;
+	float: right;
+	list-style: none;
+}
+
+.slidesjs-pagination li {
+	float: left;
+	margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+	display: block;
+	width: 13px;
+	height: 0;
+	padding-top: 13px;
+	background-image: url(../images/pagination.png);
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+	background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+	background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+	color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+	color: #9e2020
+}
+
+.navbar {
+	overflow: hidden
+}
+
+#slides {
+	display: none
+}
+
+.container {
+	margin: 0 auto
+}
+
+/* For tablets & smart phones */
+@media (max-width: 767px) {
+	body {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.container {
+		width: auto
+	}
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+	.container {
+		width: auto
+	}
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+	.container {
+		width: 800px
+	}
+}
+
+/* For larger displays */
+@media (min-width: 1200px) {
+	.container {
+		width: 800px
+	}
+}

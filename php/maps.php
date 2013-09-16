@@ -1,0 +1,4 @@
+<p><strong>Tel:</strong> 0033 553 79 78 67</p>
+<p><strong>Address:</strong></p>
+<p>Chez Madeleine</p> <p>Le Bourg</p> <p>St Colomb de Lauzun</p> <p>Lot et Garonne</p> <p>47410</p> <p>France</p>
+<iframe width="800" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.uk/maps/ms?msa=0&amp;msid=212377250988774351922.0004bb86a45bdbecfd4b8&amp;ie=UTF8&amp;t=h&amp;ll=44.703802,0.461426&amp;spn=0.292821,0.547943&amp;z=11&amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.co.uk/maps/ms?msa=0&amp;msid=212377250988774351922.0004bb86a45bdbecfd4b8&amp;ie=UTF8&amp;t=h&amp;ll=44.703802,0.461426&amp;spn=0.292821,0.547943&amp;z=11&amp;source=embed" style="color:#0000FF;text-align:left">Chez Madeleine B&amp;B</a> in a larger map</small>
